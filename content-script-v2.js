@@ -34,7 +34,7 @@ async function fetchSentiment(text){
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
-            'Authorization': 'Bearer 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'
+            'Authorization': 'Bearer '
           },
           body: JSON.stringify({
             "model": "text-davinci-003",
